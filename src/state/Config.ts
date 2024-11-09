@@ -1,7 +1,7 @@
 import { Vector3 } from "three";
 
 const SCENE = {
-  cameraPosition: new Vector3(0, 0, 6),
+  cameraPosition: new Vector3(0, 0, 15),
   FOV: 60,
   ambientIntensity: 0.5,
   pointLightIntensity: 10,
