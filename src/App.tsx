@@ -1,11 +1,16 @@
 import { Canvas } from "@react-three/fiber";
 import { Box, OrbitControls } from "@react-three/drei";
+import { SCENE } from "./state/Config";
+import Lights from "./components/Lights";
 
 function App() {
   return (
     <>
-      <Canvas camera={{ position: [0, 0, 5], fov: 60 }}>
-        <Box />
+      <Canvas camera={{ position: SCENE.cameraPosition, fov: SCENE.FOV }}>
+        <Lights />
+        <Box>
+          <meshStandardMaterial color="hotpink" />
+        </Box>
         <OrbitControls makeDefault />
       </Canvas>
     </>
