@@ -7,7 +7,7 @@ Title: Planet Earth
 */
 
 import * as THREE from "three";
-import React, { useRef } from "react";
+import { useRef, useEffect } from "react";
 import { useGLTF, useAnimations } from "@react-three/drei";
 import { GLTF } from "three-stdlib";
 
@@ -49,6 +49,14 @@ export function Planet(props: JSX.IntrinsicElements["group"]) {
     "./models/planet_earth.glb"
   ) as GLTFResult;
   const { actions } = useAnimations<GLTFActions>(animations, group);
+
+  useEffect(() => {
+    if (actions) {
+      // @ts-ignore
+      actions["Earth Turn"].play();
+    }
+  }, []);
+
   return (
     <group ref={group} {...props} dispose={null}>
       <group name="Sketchfab_Scene">
