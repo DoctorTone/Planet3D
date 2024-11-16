@@ -8,6 +8,7 @@ const SCENE = {
   pointLightDecay: 2,
   pointLightDistance: 0,
   pointLightPosition: new Vector3(0, 3, 7),
+  ROTATION_SPEED: 0.25,
 };
 
 export { SCENE };
