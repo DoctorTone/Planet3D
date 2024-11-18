@@ -1,12 +1,7 @@
-import { Typography } from "@mui/material";
-import React from "react";
+import Header from "../components/Header";
 
 const MainPage = () => {
-  return (
-    <Typography sx={{ color: "yellow" }}>
-      Click on something to find out more about it.
-    </Typography>
-  );
+  return <Header />;
 };
 
 export default MainPage;
