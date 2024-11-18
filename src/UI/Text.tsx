@@ -1,3 +1,4 @@
+import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
 const Text = () => {
@@ -7,6 +8,9 @@ const Text = () => {
         <Typography variant="h3" sx={{ color: "#c0e04c", textAlign: "center" }}>
           Everything 3D
         </Typography>
+      </div>
+      <div id="enter" className="panel centred">
+        <Button variant="contained">Show me</Button>
       </div>
     </>
   );

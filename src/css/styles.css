@@ -21,14 +21,17 @@ body {
 .panel {
   position: absolute;
 }
+.centred {
+  text-align: center;
+}
 
 #titleTop {
   top: 5%;
   left: 0%;
   width: 100%;
 }
-#titleBottom {
-  top: 5%;
-  right: 5%;
-  background: #181717;
+#enter {
+  bottom: 5%;
+  left: 0;
+  width: 100%;
 }
