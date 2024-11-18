@@ -1,19 +1,19 @@
 import { Canvas } from "@react-three/fiber";
-import { Box, OrbitControls } from "@react-three/drei";
+import { OrbitControls } from "@react-three/drei";
 import { SCENE } from "./state/Config";
 import Lights from "./components/Lights";
-import { Planet } from "./models/Planet";
-import { PlanetText } from "./models/PlanetText";
+import Planet3D from "./components/Planet3D";
+import Text from "./UI/Text";
 
 function App() {
   return (
     <>
       <Canvas camera={{ position: SCENE.cameraPosition, fov: SCENE.FOV }}>
         <Lights />
-        <Planet />
-        <PlanetText />
+        <Planet3D rotation-z={Math.PI / 16} />
         <OrbitControls makeDefault />
       </Canvas>
+      <Text />
     </>
   );
 }
