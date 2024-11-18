@@ -10,7 +10,9 @@ const Text = () => {
         </Typography>
       </div>
       <div id="enter" className="panel centred">
-        <Button variant="contained">Show me</Button>
+        <Button href="./main" variant="contained">
+          Show me
+        </Button>
       </div>
     </>
   );

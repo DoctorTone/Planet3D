@@ -1,20 +1,13 @@
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls } from "@react-three/drei";
-import { SCENE } from "./state/Config";
-import Lights from "./components/Lights";
-import Planet3D from "./components/Planet3D";
-import Text from "./UI/Text";
+import { Routes, Route } from "react-router-dom";
+import Landing from "./Pages/Landing";
+import MainPage from "./Pages/MainPage";
 
 function App() {
   return (
-    <>
-      <Canvas camera={{ position: SCENE.cameraPosition, fov: SCENE.FOV }}>
-        <Lights />
-        <Planet3D rotation-z={Math.PI / 16} />
-        <OrbitControls makeDefault />
-      </Canvas>
-      <Text />
-    </>
+    <Routes>
+      <Route path="/*" element={<Landing />} />
+      <Route path="/main" element={<MainPage />} />
+    </Routes>
   );
 }
 
