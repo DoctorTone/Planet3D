@@ -20,12 +20,12 @@ const MainPage = () => {
             />
             <Item
               title="3D Engines"
-              body="Applications for building 3D content on the desktop."
+              body="Applications for creating 3D content/games/apps on the desktop."
               link="/#engines"
             />
             <Item
               title="3D Modellers"
-              body="Applications to create 3D models"
+              body="Applications to create 3D content, models and scenes."
               link="/modellers"
             />
           </Grid>
@@ -37,46 +37,46 @@ const MainPage = () => {
             />
             <Item
               title="No code apps"
-              body="Applications for building 3D content on the desktop."
+              body="Applications for building 3D content without having to do any coding."
               link="engines"
             />
             <Item
               title="Portfolios"
-              body="Applications to create 3D models"
+              body="A collection of portfolios for inspiration."
               link="/modellers"
             />
           </Grid>
           <Grid container spacing={4} sx={{ mt: 5 }}>
             <Item
               title={"Articles"}
-              body={`3D models, textures and other resources to create content.`}
+              body={`A collection of 3D graphics-related articles for more in-depth information.`}
               link="/resources"
             />
             <Item
               title="Virtual Reality"
-              body="Applications for building 3D content on the desktop."
+              body="Articles, applications and 3D content related to virtual reality."
               link="engines"
             />
             <Item
               title="Tutorials"
-              body="Applications to create 3D models"
+              body="A knowledge base of articles to help you learn something new."
               link="/modellers"
             />
           </Grid>
           <Grid container spacing={4} sx={{ mt: 5 }}>
             <Item
               title={"Companies"}
-              body={`3D models, textures and other resources to create content.`}
+              body={`Organisations directly relevant to the graphics industry.`}
               link="/resources"
             />
             <Item
               title="Physics"
-              body="Applications for building 3D content on the desktop."
+              body="Libraries and frameworks to simulate real-world physics."
               link="engines"
             />
             <Item
               title="Development"
-              body="Applications to create 3D models"
+              body="General tools and tips to aid software development."
               link="/modellers"
             />
           </Grid>
