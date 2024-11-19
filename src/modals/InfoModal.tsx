@@ -33,6 +33,9 @@ const InfoModal = ({ open, handleClose }: InfoModalProps) => {
         onClose={handleClose}
       >
         <Box sx={style}>
+          <Typography variant="h4" color="white">
+            Planet 3D
+          </Typography>
           <Typography variant="h5">
             <p>Thanks to Kinga Kroliczek for the planet model on Sketchfab.</p>
             <p>Any suggestions for the site please let me know.</p>
