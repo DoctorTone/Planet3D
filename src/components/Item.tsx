@@ -12,7 +12,7 @@ interface ItemProps {
 const Item = ({ title, body, link, external }: ItemProps) => {
   return (
     <Grid
-      size={{ xs: 12, md: 4 }}
+      size={{ xs: 12, sm: 6, md: 4 }}
       sx={{
         background: "#252525",
         borderRadius: "20px",

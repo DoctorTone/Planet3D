@@ -13,7 +13,6 @@ const style = {
   top: "50%",
   left: "50%",
   transform: "translate(-50%, -50%)",
-  width: 400,
   bgcolor: "#252525",
   color: "grey",
   border: "5px solid orange",
@@ -32,13 +31,12 @@ const InfoModal = ({ open, handleClose }: InfoModalProps) => {
         aria-describedby="modal-modal-description"
         onClose={handleClose}
       >
-        <Box sx={style}>
+        <Box sx={style} className="modalDimensions">
           <Typography variant="h4" color="white">
             Planet 3D
           </Typography>
-          <Typography variant="h5">
-            <p>Thanks to Kinga Kroliczek for the planet model on Sketchfab.</p>
-            <p>Any suggestions for the site please let me know.</p>
+          <Typography variant="h5" sx={{ mb: 1 }}>
+            Thanks to Kinga Kroliczek for the planet model on Sketchfab.
           </Typography>
           <Button onClick={handleClose} variant="contained">
             OK

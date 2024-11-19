@@ -1,4 +1,3 @@
-import { Box, Typography } from "@mui/material";
 import Button from "@mui/material/Button";
 
 const Text = () => {

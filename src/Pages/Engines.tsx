@@ -1,6 +1,6 @@
 import Container from "@mui/material/Container";
 import Header from "../components/Header";
-import { Box } from "@react-three/drei/web";
+import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid2";
 import Item from "../components/Item";
 import Footer from "../components/Footer";
