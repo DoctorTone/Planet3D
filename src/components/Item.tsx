@@ -27,7 +27,7 @@ const Item = ({ title, body, link }: ItemProps) => {
         </Typography>
         <Divider
           variant="middle"
-          sx={{ background: "purple", mt: 1, mb: 2, height: "4px" }}
+          sx={{ background: "#dd791b", mt: 1, mb: 2, height: "4px" }}
         />
         <Typography variant="h6" color="grey">
           {body}

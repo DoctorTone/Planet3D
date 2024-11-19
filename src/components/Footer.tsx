@@ -10,6 +10,7 @@ const Footer = () => {
       <Button
         href="mailto:tony@drt-software.com?subject=Planet3D"
         variant="contained"
+        color="warning"
       >
         Contact
       </Button>

@@ -20,7 +20,7 @@ const Header = () => {
       <Box sx={{ mt: 3 }}>
         <Typography
           variant="h4"
-          sx={{ display: "flex", justifyContent: "center", color: "yellow" }}
+          sx={{ display: "flex", justifyContent: "center", color: "orange" }}
         >
           A world of 3D resources.
         </Typography>

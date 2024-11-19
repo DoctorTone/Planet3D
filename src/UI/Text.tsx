@@ -4,7 +4,7 @@ const Text = () => {
   return (
     <>
       <div id="enter" className="panel centred">
-        <Button href="/#main" variant="contained">
+        <Button href="/#main" variant="contained" color="warning">
           Show me the 3D
         </Button>
       </div>
