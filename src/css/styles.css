@@ -43,6 +43,7 @@ a {
 #logo {
   bottom: 2%;
   right: 0%;
+  cursor: pointer;
 }
 #enter {
   bottom: 5%;

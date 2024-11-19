@@ -1,6 +1,9 @@
-const Logo = () => {
+interface LogoProps {
+  onClick: () => void;
+}
+const Logo = ({ onClick }: LogoProps) => {
   return (
-    <div id="logo" className="panel centred">
+    <div onClick={onClick} id="logo" className="panel centred">
       <img className="circular w-60" src="./images/planet3d.jpg" />
     </div>
   );
