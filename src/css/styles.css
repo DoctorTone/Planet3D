@@ -27,6 +27,12 @@ body {
 .rounded {
   border-radius: "20px";
 }
+.bordered {
+  box-shadow: 0px 0px 0px 0.5rem #404040;
+}
+a {
+  text-decoration: none;
+}
 
 #logo {
   top: 1%;
@@ -39,5 +45,5 @@ body {
   width: 100%;
 }
 #dummy {
-  color: #8d8888;
+  color: #292828;
 }

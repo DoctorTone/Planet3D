@@ -22,7 +22,7 @@ const Header = () => {
           variant="h4"
           sx={{ display: "flex", justifyContent: "center", color: "yellow" }}
         >
-          Welcome to a world of 3D resources.
+          A world of 3D resources.
         </Typography>
       </Box>
     </Container>
