@@ -5,12 +5,13 @@ import Typography from "@mui/material/Typography";
 interface ItemProps {
   title: string;
   body: string;
+  link: string;
 }
 
-const Item = ({ title, body }: ItemProps) => {
+const Item = ({ title, body, link }: ItemProps) => {
   return (
     <Grid
-      size={{ xs: 12, md: 4 }}
+      size={{ xs: 6, md: 4 }}
       sx={{
         background: "#252525",
         borderRadius: "20px",
@@ -20,7 +21,7 @@ const Item = ({ title, body }: ItemProps) => {
       }}
       className="bordered"
     >
-      <Box component={"a"} href="/frameworks">
+      <Box component={"a"} href={link}>
         <Typography variant="h5" color="white">
           {title}
         </Typography>
