@@ -16,12 +16,12 @@ const MainPage = () => {
               title={"Web Frameworks"}
               body={`Frameworks and libraries for building 3D websites/applications for the
         web.`}
-              link="/frameworks"
+              link="/#frameworks"
             />
             <Item
               title="3D Engines"
               body="Applications for building 3D content on the desktop."
-              link="engines"
+              link="/#engines"
             />
             <Item
               title="3D Modellers"

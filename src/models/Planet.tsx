@@ -40,15 +40,12 @@ type GLTFResult = GLTF & {
   };
 };
 
-type ActionName = "Earth Turn";
-type GLTFActions = Record<ActionName, THREE.AnimationAction>;
-
 export function Planet(props: JSX.IntrinsicElements["group"]) {
   const group = useRef<THREE.Group>(null);
   const { nodes, materials, animations } = useGLTF(
     "./models/planet_earth.glb"
   ) as GLTFResult;
-  const { actions } = useAnimations<GLTFActions>(animations, group);
+  const { actions } = useAnimations(animations, group);
 
   useEffect(() => {
     if (actions) {

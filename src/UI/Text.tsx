@@ -1,11 +1,10 @@
 import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
 
 const Text = () => {
   return (
     <>
       <div id="enter" className="panel centred">
-        <Button href="./main" variant="contained">
+        <Button href="/#main" variant="contained">
           Show me the 3D
         </Button>
       </div>
