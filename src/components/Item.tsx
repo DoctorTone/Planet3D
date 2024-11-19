@@ -6,9 +6,10 @@ interface ItemProps {
   title: string;
   body: string;
   link: string;
+  external?: boolean;
 }
 
-const Item = ({ title, body, link }: ItemProps) => {
+const Item = ({ title, body, link, external }: ItemProps) => {
   return (
     <Grid
       size={{ xs: 12, md: 4 }}
@@ -21,7 +22,7 @@ const Item = ({ title, body, link }: ItemProps) => {
       }}
       className="bordered"
     >
-      <Box component={"a"} href={link}>
+      <Box component={"a"} href={link} {...(external && { target: "_blank" })}>
         <Typography variant="h5" color="white">
           {title}
         </Typography>
