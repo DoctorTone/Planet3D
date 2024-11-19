@@ -26,7 +26,7 @@ const MainPage = () => {
             <Item
               title="3D Modellers"
               body="Applications to create 3D content, models and scenes."
-              link="/modellers"
+              link="/#modellers"
             />
           </Grid>
           <Grid container spacing={4} sx={{ mt: 5 }}>
