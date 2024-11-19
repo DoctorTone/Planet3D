@@ -13,7 +13,9 @@ const Header = () => {
   return (
     <Container sx={{ mt: 3 }}>
       <Box component="div" sx={{ display: "flex", justifyContent: "center" }}>
-        <Img src="./images/planet3d.jpg" />
+        <a href="/">
+          <Img src="./images/planet3d.jpg" />
+        </a>
       </Box>
       <Box sx={{ mt: 3 }}>
         <Typography

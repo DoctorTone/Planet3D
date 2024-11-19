@@ -24,14 +24,20 @@ body {
 .centred {
   text-align: center;
 }
+.rounded {
+  border-radius: "20px";
+}
 
-#titleTop {
-  top: 5%;
-  left: 0%;
+#logo {
+  top: 1%;
+  left: 0;
   width: 100%;
 }
 #enter {
   bottom: 5%;
   left: 0;
   width: 100%;
+}
+#dummy {
+  color: #8d8888;
 }
