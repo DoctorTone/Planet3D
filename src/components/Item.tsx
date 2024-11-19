@@ -11,7 +11,7 @@ interface ItemProps {
 const Item = ({ title, body, link }: ItemProps) => {
   return (
     <Grid
-      size={{ xs: 6, md: 4 }}
+      size={{ xs: 12, md: 4 }}
       sx={{
         background: "#252525",
         borderRadius: "20px",
@@ -27,7 +27,7 @@ const Item = ({ title, body, link }: ItemProps) => {
         </Typography>
         <Divider
           variant="middle"
-          sx={{ background: "purple", mt: 1, mb: 1, height: "4px" }}
+          sx={{ background: "purple", mt: 1, mb: 2, height: "4px" }}
         />
         <Typography variant="h6" color="grey">
           {body}
