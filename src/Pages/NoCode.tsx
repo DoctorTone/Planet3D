@@ -5,7 +5,7 @@ import Header from "../components/Header";
 import Item from "../components/Item";
 import Footer from "../components/Footer";
 
-const Resources = () => {
+const NoCode = () => {
   return (
     <>
       <Header />
@@ -13,19 +13,15 @@ const Resources = () => {
         <Box sx={{ mt: 5 }}>
           <Grid container spacing={4} sx={{ mt: 5 }}>
             <Item
-              title="3D Models"
-              body="A collection of 3D models in all formats and price ranges."
-              link="/#models"
+              title="Spline"
+              body="Design, build and deploy 3D websites."
+              link="https://spline.design/"
+              external={true}
             />
             <Item
-              title="Textures"
-              body="A collection of images and textures for use in your 3D app."
-              link="/#textures"
-            />
-            <Item
-              title="Three.js resources"
-              body="A huge collection of resources to help you create content in three.js."
-              link="https://threejsresources.com/"
+              title="GDevelop"
+              body="Cross platform 2D/3D and multiplayer game creation."
+              link="https://gdevelop.io/"
               external={true}
             />
           </Grid>
@@ -36,4 +32,4 @@ const Resources = () => {
   );
 };
 
-export default Resources;
+export default NoCode;

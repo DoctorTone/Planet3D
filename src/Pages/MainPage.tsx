@@ -38,46 +38,61 @@ const MainPage = () => {
             <Item
               title="No code apps"
               body="Applications for building 3D content without having to do any coding."
-              link="engines"
+              link="/#nocode"
             />
             <Item
               title="Portfolios"
               body="A collection of portfolios for inspiration."
-              link="/modellers"
+              link="/#soon"
             />
           </Grid>
           <Grid container spacing={4} sx={{ mt: 5 }}>
             <Item
               title={"Articles"}
               body={`A collection of 3D graphics-related articles for more in-depth information.`}
-              link="/resources"
+              link="/#soon"
             />
             <Item
               title="Virtual Reality"
               body="Articles, applications and 3D content related to virtual reality."
-              link="engines"
+              link="/#soon"
             />
             <Item
               title="Tutorials"
               body="A knowledge base of articles to help you learn something new."
-              link="/modellers"
+              link="/#soon"
             />
           </Grid>
           <Grid container spacing={4} sx={{ mt: 5 }}>
             <Item
               title={"Companies"}
               body={`Organisations directly relevant to the graphics industry.`}
-              link="/resources"
+              link="/#soon"
             />
             <Item
               title="Physics"
               body="Libraries and frameworks to simulate real-world physics."
-              link="engines"
+              link="/#soon"
             />
             <Item
               title="Development"
               body="General tools and tips to aid software development."
-              link="/modellers"
+              link="/#soon"
+            />
+            <Item
+              title="Education"
+              body="How 3D graphics are helping the education industry."
+              link="/#soon"
+            />
+            <Item
+              title="Industries"
+              body="Relevant 3D graphics resources by sector."
+              link="/#soon"
+            />
+            <Item
+              title="Miscellaneous"
+              body="General 3D stuff that doesn't go anywhere else."
+              link="/#soon"
             />
           </Grid>
         </Box>
