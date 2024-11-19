@@ -4,6 +4,7 @@ import { SCENE } from "../state/Config";
 import Lights from "../components/Lights";
 import Planet3D from "../components/Planet3D";
 import Text from "../UI/Text";
+import Logo from "../components/Logo";
 
 const INTERACTIVE = false;
 
@@ -21,6 +22,7 @@ const Landing = () => {
         />
       </Canvas>
       <Text />
+      <Logo />
     </>
   );
 };

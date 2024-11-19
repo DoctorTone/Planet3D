@@ -9,12 +9,6 @@ const Text = () => {
           Show me the 3D
         </Button>
       </div>
-      {/* <div id="sponsor" className="panel">
-        <Typography variant="h6" color="orange">
-          Sponsored by
-        </Typography>
-        <img src="./images/drtLogo.png" />
-      </div> */}
     </>
   );
 };
