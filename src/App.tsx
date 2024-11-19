@@ -4,6 +4,9 @@ import MainPage from "./Pages/MainPage";
 import Frameworks from "./Pages/Frameworks";
 import Engines from "./Pages/Engines";
 import Modellers from "./Pages/Modellers";
+import Resources from "./Pages/Resources";
+import Models from "./Pages/Models";
+import Textures from "./Pages/Textures";
 
 function App() {
   return (
@@ -13,6 +16,9 @@ function App() {
       <Route path="/frameworks" element={<Frameworks />} />
       <Route path="/engines" element={<Engines />} />
       <Route path="/modellers" element={<Modellers />} />
+      <Route path="/resources" element={<Resources />} />
+      <Route path="/models" element={<Models />} />
+      <Route path="/textures" element={<Textures />} />
     </Routes>
   );
 }

@@ -33,7 +33,7 @@ const MainPage = () => {
             <Item
               title={"Resources"}
               body={`3D models, textures and other resources to create content.`}
-              link="/resources"
+              link="/#resources"
             />
             <Item
               title="No code apps"
